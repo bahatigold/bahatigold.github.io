@@ -94,7 +94,58 @@
             border-color: var(--accent-cyan);
             background-color: rgba(56, 189, 248, 0.05);
         }
+        
+        /* New Projects Section Styling */
+        .projects-section {
+            margin-top: 30px;
+            text-align: left;
+            background-color: #0f172a;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
 
+        .projects-section h3 {
+            color: var(--text-primary);
+            font-size: 1.05em;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: 500;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .project-item {
+            margin-bottom: 18px;
+        }
+
+        .project-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .project-title {
+            margin: 0 0 4px 0;
+            font-size: 0.95em;
+        }
+
+        .project-title a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .project-title a:hover {
+            text-decoration: underline;
+        }
+
+        .project-desc {
+            margin: 0;
+            font-size: 0.9em;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        /* Existing Credentials Section Styling */
         .credentials-section {
             margin-top: 30px;
             text-align: left;
@@ -172,11 +223,11 @@
             Kigali, Rwanda
         </div>
 
-<p>Bahati Gold Theoneste is a Software Engineering student and IT professional dedicated to building and defending enterprise environments.</p>
+        <p>Bahati Gold Theoneste is a Software Engineering student and IT professional dedicated to building and defending enterprise environments.</p>
 
-<p>His expertise encompasses designing segmented network architectures, deploying advanced threat management systems, and managing robust infrastructure, including Linux administration and Windows Server Domain Controllers.</p>
+        <p>His expertise encompasses designing segmented network architectures, deploying advanced threat management systems, and managing robust infrastructure, including Linux administration and Windows Server Domain Controllers.</p>
 
-<p>He is currently focusing on the development of independent technical projects and comprehensive documentation to further his professional portfolio.</p>
+        <p>He is currently focusing on the development of independent technical projects and comprehensive documentation to further his professional portfolio.</p>
 
         <div class="skills-container">
             <span class="skill-tag">Software Engineering</span>
@@ -185,6 +236,21 @@
             <span class="skill-tag">Windows Server Management</span>
             <span class="skill-tag">Network Architecture & Design</span>
             <span class="skill-tag">Database Architecture</span>
+        </div>
+
+        <!-- NEW PROJECTS SECTION -->
+        <div class="projects-section">
+            <h3>Featured Projects</h3>
+            
+            <div class="project-item">
+                <h4 class="project-title"><a href="https://github.com/bahatigold/Enterprise-Security-Home-Lab" target="_blank">Enterprise-Grade Cybersecurity Home Lab</a></h4>
+                <p class="project-desc">Professional enterprise security lab showcasing network segmentation, SIEM integration (Wazuh), and automated threat detection.</p>
+            </div>
+
+            <div class="project-item">
+                <h4 class="project-title"><a href="https://github.com/bahatigold/nginx-log-analyser" target="_blank">Nginx Log Analyser</a></h4>
+                <p class="project-desc">A Bash script designed to analyze standard Nginx access logs directly from the command line, utilizing core Linux utilities like awk, sort, and uniq.</p>
+            </div>
         </div>
 
         <div class="credentials-section">
