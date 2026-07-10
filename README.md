@@ -1,4 +1,4 @@
-# Bahati Gold Theoneste - Professional Portfolio
+# Bahati Gold  - Professional Portfolio
 
 **Project Page:** https://roadmap.sh/projects/github-actions-deployment-workflow
 
