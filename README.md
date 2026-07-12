@@ -1,11 +1,11 @@
-# Bahati Gold Theoneste - Professional Portfolio
+# Bahati Gold - Professional Portfolio
 
 **Project Page:** https://roadmap.sh/projects/github-actions-deployment-workflow
 
 This repository contains the source code and documentation for my professional portfolio website.
 
 ## About
-I am a Software Engineering student and IT professional focused on building, securing, and optimizing enterprise-grade digital infrastructure. This site serves as a central hub for my technical projects, certifications, and professional background.
+Bahati Gold is a Software Engineering student and IT professional focused on building, securing, and optimizing enterprise-grade digital infrastructure. This site serves as a central hub for his technical projects, certifications, and professional background.
 
 ## Visit Live Portfolio
 You can view my live portfolio here:
